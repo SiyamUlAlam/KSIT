@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KS IT Solution এর লাইভ টিভি, মুভি সার্ভার ও FTP সুবিধা। সম্পূর্ণ ফ্রি!">
+    <title>লাইভ টিভি ও মুভি সার্ভিস - KS IT Solution</title>
+        <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/ks%20it%20(1).png">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-hindsiliguri">
+    
+    <!-- Top Bar -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-center text-sm">
+                <div class="flex items-center space-x-4">
+                    <a href="tel:+8801788213414" class="hover:text-blue-200">
+                        <i class="fas fa-phone-alt"></i> +880 1788-213414
+                    </a>
+                    <a href="mailto:mzharulislamrony@gmail.com" class="hidden md:inline hover:text-blue-200">
+                        <i class="fas fa-envelope"></i> mzharulislamrony@gmail.com
+                    </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-yellow-300"><i class="fas fa-clock"></i> সকাল ৯টা - রাত ৯টা</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <img src="images/ks%20it%20(1).png" alt="KS IT Solution Logo" class="w-16 h-16 object-contain">
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">KS IT Solution</h1>
+                            <p class="text-xs text-gray-600">নির্ভরযোগ্য ইন্টারনেট সেবা</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600">হোম</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                    <a href="packages.html" class="text-gray-700 hover:text-blue-600">প্যাকেজসমূহ</a>
+                    <a href="offers.html" class="text-gray-700 hover:text-blue-600">অফার</a>
+                    <a href="tv-movies.html" class="text-blue-600 font-semibold">টিভি ও মুভি</a>
+                    <a href="products.html" class="text-gray-700 hover:text-blue-600">প্রোডাক্টস</a>
+                    <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+                    <a href="contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">যোগাযোগ</a>
+                </div>
+
+                <button id="mobileMenuBtn" class="lg:hidden text-gray-700 text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu" class="hidden lg:hidden pb-4">
+                <a href="index.html" class="block py-2 text-gray-700">হোম</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                <a href="packages.html" class="block py-2 text-gray-700 hover:text-blue-600">প্যাকেজসমূহ</a>
+                <a href="offers.html" class="block py-2 text-gray-700 hover:text-blue-600">অফার</a>
+                <a href="tv-movies.html" class="block py-2 text-blue-600 font-semibold">টিভি ও মুভি</a>
+                <a href="products.html" class="block py-2 text-gray-700 hover:text-blue-600">প্রোডাক্টস</a>
+                <a href="faq.html" class="block py-2 text-gray-700 hover:text-blue-600">FAQ</a>
+                <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">যোগাযোগ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-purple-600 to-indigo-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">লাইভ টিভি ও মুভি সার্ভিস</h1>
+            <p class="text-xl text-purple-100">বিনোদনের নতুন মাত্রা — সম্পূর্ণ ফ্রি!</p>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- FTP Server -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:-translate-y-2 transition-all">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-server text-4xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">FTP সার্ভার</h3>
+                    <p class="text-gray-600 mb-6">হাজার হাজার মুভি, সিরিজ ও গেমস ডাউনলোড করুন</p>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-bold text-blue-600">সম্পূর্ণ ফ্রি!</p>
+                    </div>
+                </div>
+
+                <!-- Movie Server -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:-translate-y-2 transition-all">
+                    <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-film text-4xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">মুভি সার্ভার</h3>
+                    <p class="text-gray-600 mb-6">সরাসরি স্ট্রিম করুন বা ডাউনলোড করুন</p>
+                    <div class="bg-purple-50 p-4 rounded-lg">
+                        <p class="font-bold text-purple-600">কোনো চার্জ নেই</p>
+                    </div>
+                </div>
+
+                <!-- Live TV -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:-translate-y-2 transition-all">
+                    <div class="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tv text-4xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">লাইভ টিভি</h3>
+                    <p class="text-gray-600 mb-6">ডিশের সকল চ্যানেল লাইভ দেখুন</p>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <p class="font-bold text-red-600">মাসিক ০ টাকা</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FTP Server Details -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">নিজস্ব FTP সার্ভার</h2>
+                    <p class="text-gray-600 text-lg">সুপার ফাস্ট ডাউনলোড, কোনো ইন্টারনেট খরচ নেই</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">কনটেন্ট লাইব্রেরি</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-blue-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">বাংলা মুভি</h4>
+                                    <p class="text-gray-600">সর্বশেষ বাংলা সিনেমা ও পুরনো ক্লাসিক</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-blue-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">হিন্দি মুভি</h4>
+                                    <p class="text-gray-600">বলিউড ও সাউথ ইন্ডিয়ান সিনেমা</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-blue-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">ইংলিশ মুভি</h4>
+                                    <p class="text-gray-600">হলিউড ব্লকবাস্টার ও ক্লাসিক</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-tv text-blue-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">ওয়েব সিরিজ</h4>
+                                    <p class="text-gray-600">Netflix, Amazon Prime সিরিজ</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">সুবিধা</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-tachometer-alt text-green-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">সুপার ফাস্ট স্পিড</h4>
+                                    <p class="text-gray-600">লোকাল সার্ভার, ৫০-১০০ Mbps স্পিডে ডাউনলোড</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-dollar-sign text-green-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">কোনো খরচ নেই</h4>
+                                    <p class="text-gray-600">ইন্টারনেট বিল থেকে কোনো কাটতি হবে না</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-sync text-green-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">নিয়মিত আপডেট</h4>
+                                    <p class="text-gray-600">নতুন মুভি ও সিরিজ সাপ্তাহিক যুক্ত হয়</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-hd-video text-green-600 mr-3 mt-1 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">HD কোয়ালিটি</h4>
+                                    <p class="text-gray-600">720p, 1080p এবং 4K কোয়ালিটি</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-2xl text-center">
+                    <h3 class="text-2xl font-bold mb-4">কীভাবে ব্যবহার করবেন?</h3>
+                    <p class="text-lg mb-6">খুবই সহজ! কানেকশন নেওয়ার পর আমরা আপনাকে FTP সার্ভার এক্সেস দিয়ে দেব।</p>
+                    <a href="contact.html" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-50">
+                        ব্যবহার শুরু করুন
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live TV Channels -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">লাইভ টিভি চ্যানেল</h2>
+                <p class="text-gray-600 text-lg">ডিশের সব জনপ্রিয় চ্যানেল দেখুন ফ্রি</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-3xl mb-3">📺</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">বাংলা চ্যানেল</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>• Star Jalsha</li>
+                        <li>• Zee Bangla</li>
+                        <li>• Colors Bangla</li>
+                        <li>• Sony Aath</li>
+                        <li>• এবং আরও...</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-3xl mb-3">📰</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">নিউজ চ্যানেল</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>• Channel 24</li>
+                        <li>• Somoy TV</li>
+                        <li>• Independent TV</li>
+                        <li>• DBC News</li>
+                        <li>• এবং আরও...</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-3xl mb-3">⚽</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">স্পোর্টস চ্যানেল</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>• Sony Sports</li>
+                        <li>• Star Sports</li>
+                        <li>• Ten Sports</li>
+                        <li>• PTV Sports</li>
+                        <li>• এবং আরও...</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-3xl mb-3">🎬</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">এন্টারটেইনমেন্ট</h3>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>• Star Plus</li>
+                        <li>• Colors TV</li>
+                        <li>• Sony TV</li>
+                        <li>• Zee TV</li>
+                        <li>• এবং আরও...</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <p class="text-xl text-gray-700 font-bold">মোট ১০০+ চ্যানেল সম্পূর্ণ ফ্রি!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center">বিশেষ সুবিধা</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 p-3 rounded-lg flex-shrink-0">
+                            <i class="fas fa-infinity text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">সীমাহীন দেখুন</h3>
+                            <p class="text-gray-600">যত খুশি তত মুভি দেখুন বা ডাউনলোড করুন, কোনো সীমা নেই</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-lg flex-shrink-0">
+                            <i class="fas fa-mobile-alt text-2xl text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">যেকোনো ডিভাইসে</h3>
+                            <p class="text-gray-600">মোবাইল, ট্যাবলেট, কম্পিউটার, স্মার্ট TV—সব ডিভাইসে চলবে</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-green-100 p-3 rounded-lg flex-shrink-0">
+                            <i class="fas fa-clock text-2xl text-green-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">২৪/৭ এক্সেস</h3>
+                            <p class="text-gray-600">দিন রাত যেকোনো সময় দেখুন, কোনো বাধা নেই</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-red-100 p-3 rounded-lg flex-shrink-0">
+                            <i class="fas fa-user-friends text-2xl text-red-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">পরিবারের সবাই</h3>
+                            <p class="text-gray-600">পরিবারের সবাই একসাথে উপভোগ করতে পারবেন</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-purple-600 to-indigo-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">আজই শুরু করুন</h2>
+            <p class="text-xl mb-8 text-purple-100">FTP সার্ভার ও লাইভ টিভির সুবিধা নিতে এখনই কানেকশন নিন</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="packages.html" class="bg-white text-purple-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-purple-50 transform hover:scale-105 transition-all">
+                    প্যাকেজ দেখুন
+                </a>
+                <a href="tel:+8801788213414" class="bg-green-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-green-600 transform hover:scale-105 transition-all inline-flex items-center justify-center">
+                    <i class="fas fa-phone-alt mr-3"></i>কল করুন
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">KS IT Solution</h3>
+                    <p class="mb-4">গাইবান্ধার সবচেয়ে নির্ভরযোগ্য ও দ্রুততম ব্রডব্যান্ড ইন্টারনেট সেবা প্রদানকারী প্রতিষ্ঠান।</p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-red-700">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">দ্রুত লিংক</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white">হোম</a></li>
+                        <li><a href="about.html" class="hover:text-white">আমাদের সম্পর্কে</a></li>
+                        <li><a href="packages.html" class="hover:text-white">প্যাকেজসমূহ</a></li>
+                        <li><a href="offers.html" class="hover:text-white">অফার</a></li>
+                        <li><a href="contact.html" class="hover:text-white">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">সেবাসমূহ</h3>
+                    <ul class="space-y-2">
+                        <li><a href="packages.html" class="hover:text-white">ব্রডব্যান্ড ইন্টারনেট</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">লাইভ টিভি</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">FTP সার্ভার</a></li>
+                        <li><a href="products.html" class="hover:text-white">রাউটার ও ONU</a></li>
+                        <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">যোগাযোগ</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>গাইবান্ধা সদর, গাইবান্ধা</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <a href="tel:+8801788213414" class="hover:text-white">+880 1788-213414</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <a href="mailto:mzharulislamrony@gmail.com" class="hover:text-white">mzharulislamrony@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3"></i>
+                            <span>সকাল ৯টা - রাত ৯টা</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p>&copy; ২০২৬ KS IT Solution. সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 right-6 flex flex-col gap-3 z-40">
+        <a href="https://wa.me/8801788213414" target="_blank" class="bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transform hover:scale-110 transition-all">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+        <a href="tel:+8801788213414" class="bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transform hover:scale-110 transition-all">
+            <i class="fas fa-phone-alt text-xl"></i>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

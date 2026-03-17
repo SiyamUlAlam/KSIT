@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KS IT Solution এর প্রোডাক্টস। WiFi Router, ONU, Cable এবং আরো অনেক কিছু।">
+    <title>প্রোডাক্টস - KS IT Solution</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/ks%20it%20(1).png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-hindsiliguri">
+    
+    <!-- Top Bar & Navigation (Same as other pages) -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-center text-sm">
+                <div class="flex items-center space-x-4">
+                    <a href="tel:+8801788213414" class="hover:text-blue-200">
+                        <i class="fas fa-phone-alt"></i> +880 1788-213414
+                    </a>
+                    <a href="mailto:mzharulislamrony@gmail.com" class="hidden md:inline hover:text-blue-200">
+                        <i class="fas fa-envelope"></i> mzharulislamrony@gmail.com
+                    </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-yellow-300"><i class="fas fa-clock"></i> সকাল ৯টা - রাত ৯টা</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <img src="images/ks%20it%20(1).png" alt="KS IT Solution Logo" class="w-16 h-16 object-contain">
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">KS IT Solution</h1>
+                            <p class="text-xs text-gray-600">নির্ভরযোগ্য ইন্টারনেট সেবা</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600">হোম</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                    <a href="packages.html" class="text-gray-700 hover:text-blue-600">প্যাকেজসমূহ</a>
+                    <a href="offers.html" class="text-gray-700 hover:text-blue-600">অফার</a>
+                    <a href="tv-movies.html" class="text-gray-700 hover:text-blue-600">টিভি ও মুভি</a>
+                    <a href="products.html" class="text-blue-600 font-semibold">প্রোডাক্টস</a>
+                    <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+                    <a href="contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">যোগাযোগ</a>
+                </div>
+
+                <button id="mobileMenuBtn" class="lg:hidden text-gray-700 text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu" class="hidden lg:hidden pb-4">
+                <a href="index.html" class="block py-2 text-gray-700">হোম</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                <a href="packages.html" class="block py-2 text-gray-700 hover:text-blue-600">প্যাকেজসমূহ</a>
+                <a href="offers.html" class="block py-2 text-gray-700 hover:text-blue-600">অফার</a>
+                <a href="tv-movies.html" class="block py-2 text-gray-700 hover:text-blue-600">টিভি ও মুভি</a>
+                <a href="products.html" class="block py-2 text-blue-600 font-semibold">প্রোডাক্টস</a>
+                <a href="faq.html" class="block py-2 text-gray-700 hover:text-blue-600">FAQ</a>
+                <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">যোগাযোগ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-green-600 to-teal-700 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">প্রোডাক্টস</h1>
+            <p class="text-xl text-green-100">উচ্চমানের নেটওয়ার্কিং পণ্য</p>
+        </div>
+    </section>
+
+    <!-- Main Product Categories -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-3">আমাদের মূল প্রোডাক্ট</h2>
+                <p class="text-gray-600 text-lg">রাউটার এবং ONU এর আলাদা পেজ থেকে মডেল, ছবি ও মূল্য দেখুন</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-600 text-white rounded-full mb-5 mx-auto">
+                        <i class="fas fa-wifi text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-3">রাউটার সমূহ</h3>
+                    <p class="text-center text-gray-600 mb-6">বিভিন্ন ব্র্যান্ডের রাউটার ছবি ও মূল্যসহ দেখুন</p>
+                    <a href="routers.html" class="block bg-blue-600 text-white py-3 rounded-lg font-bold text-center hover:bg-blue-700 transition">সব রাউটার দেখুন</a>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center justify-center w-16 h-16 bg-purple-600 text-white rounded-full mb-5 mx-auto">
+                        <i class="fas fa-network-wired text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-3">ONU সমূহ</h3>
+                    <p class="text-center text-gray-600 mb-6">বিভিন্ন GPON/EPON ONU ছবি ও মূল্যসহ দেখুন</p>
+                    <a href="onu.html" class="block bg-purple-600 text-white py-3 rounded-lg font-bold text-center hover:bg-purple-700 transition">সব ONU দেখুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Product 1: WiFi Router -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-blue-100 to-blue-200 p-8 text-center">
+                        <i class="fas fa-wifi text-6xl text-blue-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">WiFi Router</h3>
+                        <p class="text-gray-600 mb-6">ডুয়াল ব্যান্ড WiFi রাউটার। ২.৪GHz এবং ৫GHz সাপোর্ট সহ।</p>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>AC1200 ডুয়াল ব্যান্ড</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>৪টি হাই-গেইন এন্টেনা</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>দীর্ঘ রেঞ্জ কভারেজ</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>১ বছর ওয়ারেন্টি</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-blue-600">৳১৫০০</span>
+                            <span class="text-gray-500 line-through ml-2">৳২০০০</span>
+                        </div>
+
+                        <a href="contact.html" class="block bg-blue-600 text-white py-3 rounded-lg font-bold text-center hover:bg-blue-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 2: ONU -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-purple-100 to-purple-200 p-8 text-center">
+                        <i class="fas fa-network-wired text-6xl text-purple-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">ONU (Optical Network Unit)</h3>
+                        <p class="text-gray-600 mb-6">ফাইবার অপটিক কানেকশনের জন্য ONU ডিভাইস।</p>
+                        
+                        <div class="bg-purple-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>GPON টেকনোলজি</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>১ GE LAN পোর্ট</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>স্থিতিশীল পারফরম্যান্স</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>১ বছর ওয়ারেন্টি</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-purple-600">৳১২০০</span>
+                            <span class="text-gray-500 line-through ml-2">৳১৫০০</span>
+                        </div>
+
+                        <div class="bg-green-100 text-green-700 px-3 py-2 rounded-lg text-sm text-center mb-4 font-semibold">
+                            ১২ মাসে ফ্রি পান!
+                        </div>
+
+                        <a href="contact.html" class="block bg-purple-600 text-white py-3 rounded-lg font-bold text-center hover:bg-purple-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 3: LAN Cable -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-green-100 to-green-200 p-8 text-center">
+                        <i class="fas fa-ethernet text-6xl text-green-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">LAN Cable (Cat6)</h3>
+                        <p class="text-gray-600 mb-6">উচ্চমানের Cat6 LAN ক্যাবল। দ্রুত ডেটা ট্রান্সফার।</p>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>Cat6 স্ট্যান্ডার্ড</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>1 Gbps স্পিড সাপোর্ট</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>কপার তার</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>বিভিন্ন দৈর্ঘ্য পাওয়া যায়</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-green-600">৳২০</span>
+                            <span class="text-gray-600 text-sm ml-2">/মিটার</span>
+                        </div>
+
+                        <a href="contact.html" class="block bg-green-600 text-white py-3 rounded-lg font-bold text-center hover:bg-green-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 4: RJ45 Connector -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-orange-100 to-orange-200 p-8 text-center">
+                        <i class="fas fa-plug text-6xl text-orange-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">RJ45 Connector</h3>
+                        <p class="text-gray-600 mb-6">উচ্চমানের RJ45 কানেক্টর। LAN ক্যাবল সংযোগের জন্য।</p>
+                        
+                        <div class="bg-orange-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>গোল্ড প্লেটেড পিন</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>টেকসই মান</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>সহজ সংযোগ</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>১০০ পিস/প্যাকেট</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-orange-600">৳৫০০</span>
+                            <span class="text-gray-600 text-sm ml-2">/প্যাকেট</span>
+                        </div>
+
+                        <a href="contact.html" class="block bg-orange-600 text-white py-3 rounded-lg font-bold text-center hover:bg-orange-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 5: Fiber Patch Cord -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-red-100 to-red-200 p-8 text-center">
+                        <i class="fas fa-stream text-6xl text-red-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Fiber Patch Cord</h3>
+                        <p class="text-gray-600 mb-6">অপটিক্যাল ফাইবার প্যাচ কর্ড। ONU কানেকশনের জন্য।</p>
+                        
+                        <div class="bg-red-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>SC/UPC কানেক্টর</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>সিঙ্গেল মোড ফাইবার</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>কম সিগন্যাল লস</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>বিভিন্ন দৈর্ঘ্য</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-red-600">৳১৫০</span>
+                            <span class="text-gray-600 text-sm ml-2">/পিস</span>
+                        </div>
+
+                        <a href="contact.html" class="block bg-red-600 text-white py-3 rounded-lg font-bold text-center hover:bg-red-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 6: Power Adapter -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all">
+                    <div class="bg-gradient-to-br from-indigo-100 to-indigo-200 p-8 text-center">
+                        <i class="fas fa-charging-station text-6xl text-indigo-600 mb-4"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Power Adapter</h3>
+                        <p class="text-gray-600 mb-6">রাউটার ও ONU এর জন্য পাওয়ার অ্যাডাপ্টার।</p>
+                        
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-gray-800 mb-2">বৈশিষ্ট্য:</h4>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>12V/1A আউটপুট</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>ওভারলোড প্রোটেকশন</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>দীর্ঘস্থায়ী</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                    <span>৬ মাস ওয়ারেন্টি</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <span class="text-3xl font-bold text-indigo-600">৳৩০০</span>
+                        </div>
+
+                        <a href="contact.html" class="block bg-indigo-600 text-white py-3 rounded-lg font-bold text-center hover:bg-indigo-700 transition">
+                            অর্ডার করুন
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">পণ্য কিনতে যোগাযোগ করুন</h2>
+            <p class="text-xl mb-8 text-blue-100">সবগুলো পণ্যে পাবেন ওয়ারেন্টি ও মান নিশ্চয়তা</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+8801788213414" class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all inline-flex items-center justify-center">
+                    <i class="fas fa-phone-alt mr-3"></i>কল করুন
+                </a>
+                <a href="contact.html" class="bg-green-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-green-600 transform hover:scale-105 transition-all">
+                    যোগাযোগ ফর্ম
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">KS IT Solution</h3>
+                    <p class="mb-4">গাইবান্ধার সবচেয়ে নির্ভরযোগ্য ও দ্রুততম ব্রডব্যান্ড ইন্টারনেট সেবা প্রদানকারী প্রতিষ্ঠান।</p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-red-700">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">দ্রুত লিংক</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white">হোম</a></li>
+                        <li><a href="about.html" class="hover:text-white">আমাদের সম্পর্কে</a></li>
+                        <li><a href="packages.html" class="hover:text-white">প্যাকেজসমূহ</a></li>
+                        <li><a href="offers.html" class="hover:text-white">অফার</a></li>
+                        <li><a href="contact.html" class="hover:text-white">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">সেবাসমূহ</h3>
+                    <ul class="space-y-2">
+                        <li><a href="packages.html" class="hover:text-white">ব্রডব্যান্ড ইন্টারনেট</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">লাইভ টিভি</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">FTP সার্ভার</a></li>
+                        <li><a href="products.html" class="hover:text-white">রাউটার ও ONU</a></li>
+                        <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">যোগাযোগ</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>গাইবান্ধা সদর, গাইবান্ধা</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <a href="tel:+8801788213414" class="hover:text-white">+880 1788-213414</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <a href="mailto:mzharulislamrony@gmail.com" class="hover:text-white">mzharulislamrony@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3"></i>
+                            <span>সকাল ৯টা - রাত ৯টা</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p>&copy; ২০২৬ KS IT Solution. সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 right-6 flex flex-col gap-3 z-40">
+        <a href="https://wa.me/8801788213414" target="_blank" class="bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transform hover:scale-110 transition-all">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+        <a href="tel:+8801788213414" class="bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transform hover:scale-110 transition-all">
+            <i class="fas fa-phone-alt text-xl"></i>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

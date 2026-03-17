@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KS IT Solution এর সকল ইন্টারনেট প্যাকেজ দেখুন। ৫ Mbps থেকে ৩০ Mbps পর্যন্ত।">
+    <title>ইন্টারনেট প্যাকেজসমূহ - KS IT Solution</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/ks%20it%20(1).png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-hindsiliguri">
+    
+    <!-- Top Bar -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-center text-sm">
+                <div class="flex items-center space-x-4">
+                    <a href="tel:+8801788213414" class="hover:text-blue-200">
+                        <i class="fas fa-phone-alt"></i> +880 1788-213414
+                    </a>
+                    <a href="mailto:mzharulislamrony@gmail.com" class="hidden md:inline hover:text-blue-200">
+                        <i class="fas fa-envelope"></i> mzharulislamrony@gmail.com
+                    </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-yellow-300"><i class="fas fa-clock"></i> সকাল ৯টা - রাত ৯টা</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <img src="images/ks%20it%20(1).png" alt="KS IT Solution Logo" class="w-16 h-16 object-contain">
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">KS IT Solution</h1>
+                            <p class="text-xs text-gray-600">নির্ভরযোগ্য ইন্টারনেট সেবা</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600">হোম</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                    <a href="packages.html" class="text-blue-600 font-semibold">প্যাকেজসমূহ</a>
+                    <a href="offers.html" class="text-gray-700 hover:text-blue-600">অফার</a>
+                    <a href="tv-movies.html" class="text-gray-700 hover:text-blue-600">টিভি ও মুভি</a>
+                    <a href="products.html" class="text-gray-700 hover:text-blue-600">প্রোডাক্টস</a>
+                    <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+                    <a href="contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">যোগাযোগ</a>
+                </div>
+
+                <button id="mobileMenuBtn" class="lg:hidden text-gray-700 text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="mobileMenu" class="hidden lg:hidden pb-4">
+                <a href="index.html" class="block py-2 text-gray-700">হোম</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">আমাদের সম্পর্কে</a>
+                <a href="packages.html" class="block py-2 text-blue-600 font-semibold">প্যাকেজসমূহ</a>
+                <a href="offers.html" class="block py-2 text-gray-700 hover:text-blue-600">অফার</a>
+                <a href="tv-movies.html" class="block py-2 text-gray-700 hover:text-blue-600">টিভি ও মুভি</a>
+                <a href="products.html" class="block py-2 text-gray-700 hover:text-blue-600">প্রোডাক্টস</a>
+                <a href="faq.html" class="block py-2 text-gray-700 hover:text-blue-600">FAQ</a>
+                <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">যোগাযোগ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">ইন্টারনেট প্যাকেজসমূহ</h1>
+            <p class="text-xl text-blue-100">আপনার চাহিদা মতো সেরা প্যাকেজ বেছে নিন</p>
+        </div>
+    </section>
+
+    <!-- Packages Table (Desktop) -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">সকল প্যাকেজ একনজরে</h2>
+                <p class="text-gray-600 text-lg">সীমাহীন ডেটা, ফ্রি FTP ও লাইভ টিভি সুবিধা সব প্যাকেজেই</p>
+            </div>
+
+            <!-- Desktop Table View -->
+            <div class="hidden md:block overflow-x-auto bg-white rounded-2xl shadow-2xl">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                            <th class="py-6 px-6 text-left text-lg font-bold">প্যাকেজ নাম</th>
+                            <th class="py-6 px-6 text-center text-lg font-bold">ব্যান্ডউইথ</th>
+                            <th class="py-6 px-6 text-center text-lg font-bold">মাসিক মূল্য</th>
+                            <th class="py-6 px-6 text-center text-lg font-bold">বিশেষ সুবিধা</th>
+                            <th class="py-6 px-6 text-center text-lg font-bold"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Package 1: Basic -->
+                        <tr class="border-b hover:bg-blue-50 transition">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-blue-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">বেসিক</h3>
+                                        <p class="text-sm text-gray-600">শুরুর জন্য আদর্শ</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-blue-600">৫</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳৫০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">সীমাহীন ডেটা</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+
+                        <!-- Package 2: Standard -->
+                        <tr class="border-b hover:bg-blue-50 transition">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-green-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">স্ট্যান্ডার্ড</h3>
+                                        <p class="text-sm text-gray-600">পরিবারের জন্য উপযুক্ত</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-green-600">১০</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳১০০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">এইচডি স্ট্রিমিং</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+
+                        <!-- Package 3: Premium (Popular) -->
+                        <tr class="border-b bg-purple-50 hover:bg-purple-100 transition relative">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-purple-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">প্রিমিয়াম</h3>
+                                        <p class="text-sm text-gray-600">সবচেয়ে জনপ্রিয়</p>
+                                        <span class="bg-purple-600 text-white px-2 py-1 rounded text-xs font-bold mt-1 inline-block">বেস্ট সেলার</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-purple-600">১২</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳১৫০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold">4K স্ট্রিমিং</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+
+                        <!-- Package 4: Advanced -->
+                        <tr class="border-b hover:bg-blue-50 transition">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-orange-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">অ্যাডভান্সড</h3>
+                                        <p class="text-sm text-gray-600">হেভি ইউজারদের জন্য</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-orange-600">১৫</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳২০০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">গেমিং অপটিমাইজড</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-orange-600 text-white px-6 py-2 rounded-full hover:bg-orange-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+
+                        <!-- Package 5: VIP -->
+                        <tr class="border-b hover:bg-blue-50 transition">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-red-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">VIP</h3>
+                                        <p class="text-sm text-gray-600">প্রিমিয়াম স্পিড</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-red-600">২০</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳২৫০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">প্রায়োরিটি সাপোর্ট</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+
+                        <!-- Package 6: VIP Pro -->
+                        <tr class="border-b hover:bg-blue-50 transition">
+                            <td class="py-6 px-6">
+                                <div class="flex items-center">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-wifi text-indigo-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-gray-800">VIP Pro</h3>
+                                        <p class="text-sm text-gray-600">সর্বোচ্চ স্পিড</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-indigo-600">৩০</div>
+                                <div class="text-gray-600">Mbps</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <div class="text-3xl font-bold text-gray-800">৳৩০০০</div>
+                                <div class="text-sm text-gray-600">/মাস</div>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-semibold">VIP সাপোর্ট</span>
+                            </td>
+                            <td class="py-6 px-6 text-center">
+                                <a href="contact.html" class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 inline-block font-semibold">আবেদন করুন</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Mobile Card View -->
+            <div class="md:hidden space-y-6">
+                <!-- Mobile Package Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">বেসিক</h3>
+                            <p class="text-sm text-gray-600">শুরুর জন্য আদর্শ</p>
+                        </div>
+                        <div class="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-blue-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-blue-600">৫</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳৫০০</span>
+                            <span class="text-gray-600 ml-2">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">সীমাহীন ডেটা</span>
+                    </div>
+                    <a href="contact.html" class="block bg-blue-600 text-white py-3 rounded-lg font-bold text-center hover:bg-blue-700">আবেদন করুন</a>
+                </div>
+
+                <!-- Mobile Package Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">স্ট্যান্ডার্ড</h3>
+                            <p class="text-sm text-gray-600">পরিবারের জন্য উপযুক্ত</p>
+                        </div>
+                        <div class="bg-green-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-green-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-green-600">১০</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳১০০০</span>
+                            <span class="text-gray-600 ml-2">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">এইচডি স্ট্রিমিং</span>
+                    </div>
+                    <a href="contact.html" class="block bg-green-600 text-white py-3 rounded-lg font-bold text-center hover:bg-green-700">আবেদন করুন</a>
+                </div>
+
+                <!-- Mobile Package Card 3 - Featured -->
+                <div class="bg-purple-50 rounded-xl shadow-xl p-6 border-4 border-purple-400">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">প্রিমিয়াম</h3>
+                            <p class="text-sm text-gray-600">সবচেয়ে জনপ্রিয়</p>
+                            <span class="bg-purple-600 text-white px-2 py-1 rounded text-xs font-bold mt-2 inline-block">বেস্ট সেলার</span>
+                        </div>
+                        <div class="bg-purple-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-purple-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-purple-600">১২</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳১৫০০</span>
+                            <span class="text-gray-600 ml-2">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold">4K স্ট্রিমিং</span>
+                    </div>
+                    <a href="contact.html" class="block bg-purple-600 text-white py-3 rounded-lg font-bold text-center hover:bg-purple-700">আবেদন করুন</a>
+                </div>
+
+                <!-- Mobile Package Card 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">অ্যাডভান্সড</h3>
+                            <p class="text-sm text-gray-600">হেভি ইউজারদের জন্য</p>
+                        </div>
+                        <div class="bg-orange-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-orange-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-orange-600">১৫</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳২০০০</span>
+                            <span class="text-gray-600 ml-2">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">গেমিং অপটিমাইজড</span>
+                    </div>
+                    <a href="contact.html" class="block bg-orange-600 text-white py-3 rounded-lg font-bold text-center hover:bg-orange-700">আবেদন করুন</a>
+                </div>
+
+                <!-- Mobile Package Card 5 -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">VIP</h3>
+                            <p class="text-sm text-gray-600">প্রিমিয়াম স্পিড</p>
+                        </div>
+                        <div class="bg-red-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-red-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-red-600">২০</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳২৫০০</span>
+                            <span class="text-gray-600 ml-2">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">প্রায়োরিটি সাপোর্ট</span>
+                    </div>
+                    <a href="contact.html" class="block bg-red-600 text-white py-3 rounded-lg font-bold text-center hover:bg-red-700">আবেদন করুন</a>
+                </div>
+
+                <!-- Mobile Package Card 6 -->
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">VIP Pro</h3>
+                            <p class="text-sm text-gray-600">সর্বোচ্চ স্পিড</p>
+                        </div>
+                        <div class="bg-indigo-100 w-14 h-14 rounded-full flex items-center justify-center">
+                            <i class="fas fa-wifi text-indigo-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-bold text-indigo-600">৩০</span>
+                            <span class="text-gray-600 ml-2">Mbps</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-baseline">
+                            <span class="text-3xl font-bold text-gray-800">৳৩০००</span>
+                            <span class=\"text-gray-600 ml-2\">/মাস</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-semibold">VIP সাপোর্ট</span>
+                    </div>
+                    <a href="contact.html" class="block bg-indigo-600 text-white py-3 rounded-lg font-bold text-center hover:bg-indigo-700">আবেদন করুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Features (Common to All) -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">সকল প্যাকেজেই পাবেন</h2>
+                <p class="text-gray-600 text-lg">কোন প্যাকেজই নিন না কেন, এই সুবিধাগুলো ফ্রি</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl text-center">
+                    <i class="fas fa-infinity text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">সীমাহীন ডেটা</h3>
+                    <p class="text-gray-600">কোনো ডেটা লিমিট নেই, যত খুশি ব্যবহার করুন</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl text-center">
+                    <i class="fas fa-server text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">ফ্রি FTP সার্ভার</h3>
+                    <p class="text-gray-600">হাজার হাজার মুভি ও সিরিজ ডাউনলোড করুন</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl text-center">
+                    <i class="fas fa-tv text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">লাইভ টিভি ফ্রি</h3>
+                    <p class="text-gray-600">ডিশের সকল চ্যানেল কোনো চার্জ ছাড়াই</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl text-center">
+                    <i class="fas fa-headset text-4xl text-red-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">২৪/৭ সাপোর্ট</h3>
+                    <p class="text-gray-600">যেকোনো সময় টেকনিক্যাল সাপোর্ট</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="py-16 bg-gradient-to-r from-orange-500 to-red-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">বিশেষ অফার</h2>
+                <p class="text-lg text-orange-100">সব প্যাকেজে পাবেন এই সুবিধাগুলো</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white/10 backdrop-blur-lg p-8 rounded-2xl text-center border-2 border-white/30">
+                    <div class="text-5xl mb-4">🎁</div>
+                    <h3 class="text-2xl font-bold mb-3">১২ মাসে ONU ফ্রি</h3>
+                    <p class="text-orange-100">নিয়মিত বিল পরিশোধ করলে ONU একদম ফ্রি</p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-lg p-8 rounded-2xl text-center border-2 border-white/30">
+                    <div class="text-5xl mb-4">📶</div>
+                    <h3 class="text-2xl font-bold mb-3">১৫ মাসে রাউটার ফ্রি</h3>
+                    <p class="text-orange-100">নিয়মিত বিল দিয়ে পাবেন ফ্রি WiFi রাউটার</p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-lg p-8 rounded-2xl text-center border-2 border-white/30">
+                    <div class="text-5xl mb-4">💯</div>
+                    <h3 class="text-2xl font-bold mb-3">ফ্রি কানেকশন</h3>
+                    <p class="text-orange-100">ONU ও রাউটার থাকলে কানেকশন চার্জ ফ্রি</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <a href="offers.html" class="inline-block bg-white text-orange-600 px-8 py-3 rounded-full font-bold hover:bg-orange-50 transition shadow-lg">
+                    আরো অফার দেখুন <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">এখনই কানেকশন নিন</h2>
+            <p class="text-xl text-gray-600 mb-8">আপনার পছন্দের প্যাকেজ নিয়ে যোগাযোগ করুন</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+8801788213414" class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all inline-flex items-center justify-center">
+                    <i class="fas fa-phone-alt mr-3"></i>+880 1788-213414
+                </a>
+                <a href="https://wa.me/8801788213414" target="_blank" class="bg-green-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-green-600 transform hover:scale-105 transition-all inline-flex items-center justify-center">
+                    <i class="fab fa-whatsapp mr-3"></i>WhatsApp করুন
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">KS IT Solution</h3>
+                    <p class="mb-4">গাইবান্ধার সবচেয়ে নির্ভরযোগ্য ও দ্রুততম ব্রডব্যান্ড ইন্টারনেট সেবা প্রদানকারী প্রতিষ্ঠান।</p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-red-700">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">দ্রুত লিংক</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white">হোম</a></li>
+                        <li><a href="about.html" class="hover:text-white">আমাদের সম্পর্কে</a></li>
+                        <li><a href="packages.html" class="hover:text-white">প্যাকেজসমূহ</a></li>
+                        <li><a href="offers.html" class="hover:text-white">অফার</a></li>
+                        <li><a href="contact.html" class="hover:text-white">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">সেবাসমূহ</h3>
+                    <ul class="space-y-2">
+                        <li><a href="packages.html" class="hover:text-white">ব্রডব্যান্ড ইন্টারনেট</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">লাইভ টিভি</a></li>
+                        <li><a href="tv-movies.html" class="hover:text-white">FTP সার্ভার</a></li>
+                        <li><a href="products.html" class="hover:text-white">রাউটার ও ONU</a></li>
+                        <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">যোগাযোগ</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>গাইবান্ধা সদর, গাইবান্ধা</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <a href="tel:+8801788213414" class="hover:text-white">+880 1788-213414</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <a href="mailto:mzharulislamrony@gmail.com" class="hover:text-white">mzharulislamrony@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3"></i>
+                            <span>সকাল ৯টা - রাত ৯টা</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p>&copy; ২০২৬ KS IT Solution. সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 right-6 flex flex-col gap-3 z-40">
+        <a href="https://wa.me/8801788213414" target="_blank" class="bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transform hover:scale-110 transition-all">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+        <a href="tel:+8801788213414" class="bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transform hover:scale-110 transition-all">
+            <i class="fas fa-phone-alt text-xl"></i>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
