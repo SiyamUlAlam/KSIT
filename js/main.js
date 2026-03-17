@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentUrl = this.getAttribute('href');
             if (!currentUrl.includes('text=')) {
                 e.preventDefault();
-                const message = encodeURIComponent('নমস্কার! আমি KS IT Solution সম্পর্কে জানতে চাই।');
+                const message = encodeURIComponent('আসসালামু আলাইকুম! আমি KS IT Solution এর সার্ভিস সম্পর্কে জানতে চাই।');
                 window.open(currentUrl + '?text=' + message, '_blank');
             }
         });
